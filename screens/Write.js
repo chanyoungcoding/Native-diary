@@ -5,7 +5,6 @@ import styled from "styled-components/native";
 import colors from "../colors";
 import { useDB } from "../context";
 
-
 const emotions = ["🤯", "🥲", "🤬", "🤗", "🥰", "😊"];
 
 const Write = ({navigation : { goBack }}) => {

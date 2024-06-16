@@ -30,7 +30,6 @@ function App() {
         } finally {
             setReady(true);
         }
-        console.log("start Loading");
     }
 
     useEffect(() => {
@@ -40,7 +39,6 @@ function App() {
     const onLayoutRootView = useCallback(async () => {
         if (ready) {
             await SplashScreen.hideAsync();
-            console.log("hide async");
         }
     }, [ready]);
 
